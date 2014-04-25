@@ -1,0 +1,10 @@
+.metadata
+.settings
+.project
+.classpath
+.link_to_grails_plugins
+target
+target-eclipse
+plugin.xml
+# global excludes
+**/web-app/WEB-INF
