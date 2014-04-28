@@ -1,6 +1,6 @@
 class GchimpGrailsPlugin {
-    def version = "0.4"
-    def grailsVersion = "2.3 > *"
+    def version = "0.4.1"
+    def grailsVersion = "2.2 > *"
     def loadAfter = ['services']
     def pluginExcludes = [
             "grails-app/views/**",
@@ -12,9 +12,7 @@ class GchimpGrailsPlugin {
     def author = "innobox GmbH"
     def authorEmail = "support@innobox.de"
     def title = "gchimp Plugin"
-    def description = '''\\
-    	The grails gchimp Plugin is an interface for the MailChimp 1.2. API.
-'''
+    def description = '''The grails gchimp Plugin is an interface for the MailChimp 1.2. API.'''
     def documentation = "http://grails.org/plugin/gchimp"
 
     def doWithSpring = {
