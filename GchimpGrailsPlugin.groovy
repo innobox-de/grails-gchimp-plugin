@@ -1,6 +1,6 @@
 class GchimpGrailsPlugin {
-    def version = "0.4.1"
-    def grailsVersion = "2.2 > *"
+    def version = "0.5.0"
+    def grailsVersion = "2.5 > *"
     def loadAfter = ['services']
     def pluginExcludes = [
             "grails-app/views/**",
